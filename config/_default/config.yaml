@@ -7,4 +7,4 @@ params:
     active: true
   logo:
     header: '/assets/images/sec_logo_b.svg'
-    footer: 'assets/images/sec_logo_w.svg'
+    footer: 'assets/images/sec_logo_b.svg'

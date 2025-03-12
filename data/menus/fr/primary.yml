@@ -22,4 +22,11 @@ items:
   children: []
   path: "/pages/notre-liste"
   file: content/fr/pages/notre-liste/_index.html
+- title: Programme
+  target: "/programme/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/programme"
+  file: content/fr/pages/programme/_index.html
 

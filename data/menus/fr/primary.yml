@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Notre liste
   target: "/notre-liste/"
   kind: page
@@ -29,4 +22,11 @@ items:
   children: []
   path: "/pages/programme"
   file: content/fr/pages/programme/_index.html
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 

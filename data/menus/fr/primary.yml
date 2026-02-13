@@ -2,38 +2,48 @@
 title: Menu principal
 items:
 - title: Notre liste
+  slug: notre-liste
   target: "/notre-liste/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/notre-liste"
   file: content/fr/pages/notre-liste/_index.html
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Programme
+  slug: programme
   target: "/programme/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/programme"
   file: content/fr/pages/programme/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Contact
+  slug: contact
   target: "/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 

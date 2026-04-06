@@ -1,0 +1,77 @@
+---
+title: Menu principal
+items:
+- title: Notre commune
+  slug: notre-commune
+  target: "/notre-commune/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Le Conseil municipal
+    slug: le-conseil-municipal
+    target: "/notre-commune/le-conseil-municipal/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/notre-commune/le-conseil-municipal"
+    file: content/fr/pages/notre-commune/le-conseil-municipal/_index.html
+  - title: Actes administratifs
+    slug: actes-administratifs
+    target: "/notre-commune/actes-administratifs/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/notre-commune/actes-administratifs"
+    file: content/fr/pages/notre-commune/actes-administratifs/_index.html
+  descendants_targets:
+  - "/notre-commune/actes-administratifs/"
+  - "/notre-commune/le-conseil-municipal/"
+  path: "/pages/notre-commune"
+  file: content/fr/pages/notre-commune/_index.html
+- title: Vos démarches
+  slug: vos-demarches
+  target: "/vos-demarches/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Urbanisme
+    slug: urbanisme
+    target: "/vos-demarches/urbanisme/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vos-demarches/urbanisme"
+    file: content/fr/pages/vos-demarches/urbanisme/_index.html
+  - title: Droits et démarches - particuliers
+    slug: droits-et-demarches-particuliers
+    target: https://www.service-public.gouv.fr/
+    kind: url
+    new_tab: true
+    children: []
+    descendants_targets: []
+  - title: Droits et démarches - entreprises
+    slug: droits-et-demarches-entreprises
+    target: https://entreprendre.service-public.gouv.fr/
+    kind: url
+    new_tab: true
+    children: []
+    descendants_targets: []
+  descendants_targets:
+  - "/vos-demarches/urbanisme/"
+  - https://entreprendre.service-public.gouv.fr/
+  - https://www.service-public.gouv.fr/
+  path: "/pages/vos-demarches"
+  file: content/fr/pages/vos-demarches/_index.html
+- title: Contact
+  slug: contact
+  target: "/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
+

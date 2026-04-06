@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2025-03-11T18:15:49+01:00
-lastmod: 2026-04-06T10:46:13+02:00
+lastmod: 2026-04-07T01:17:55+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-03-11T18:15:49+01:00
-    updated_at: 2026-04-06T10:46:13+02:00
+    updated_at: 2026-04-07T01:17:55+02:00
     published_at: 2025-03-11T18:15:49+01:00
 search:
   id: "c0af6a63-6124-4905-9104-6290c8234f33"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Bienvenue dans votre village</p>
   body: >-
-    <p>Accès direct </p>  <p>   <br>Donnez de la force à notre liste, soutenez nous financièrement !</p>  <p>Faire un don <br>#</p>
+    <p>Accès direct </p>  <p> Les dernières informations </p>  <p> Les prochains événements </p>
 
 breadcrumbs:
   - title: >-
@@ -60,6 +60,7 @@ children:
   - "pages/contact/_index.html"
   - "exhibitions/_index.html"
   - "pages/notre-commune/_index.html"
+  - "pages/vos-demarches/_index.html"
 child_pages:
   - permalink: "/actualites/"
     path: "/posts"
@@ -81,10 +82,14 @@ child_pages:
     path: "/exhibitions"
     slug: "expositions"
     file: "content/fr/exhibitions/_index.html"
-  - permalink: ""
+  - permalink: "/notre-commune/"
     path: "/pages/notre-commune"
     slug: "notre-commune"
     file: "content/fr/pages/notre-commune/_index.html"
+  - permalink: "/vos-demarches/"
+    path: "/pages/vos-demarches"
+    slug: "vos-demarches"
+    file: "content/fr/pages/vos-demarches/_index.html"
 
 summary: >-
   <p>Bienvenue dans votre village</p>
@@ -92,7 +97,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 4
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -128,43 +133,39 @@ contents:
           file: "content/fr/events/_index.html"
           name: >-
             Agenda
+        - permalink: "/vos-demarches/urbanisme/"
+          path: "/pages/vos-demarches/urbanisme"
+          slug: "urbanisme"
+          file: "content/fr/pages/vos-demarches/urbanisme/_index.html"
+          name: >-
+            Urbanisme
+        - permalink: "/notre-commune/actes-administratifs/"
+          path: "/pages/notre-commune/actes-administratifs"
+          slug: "actes-administratifs"
+          file: "content/fr/pages/notre-commune/actes-administratifs/_index.html"
+          name: >-
+            Actes administratifs
 
-      quantity: 1
-
-
-  - kind: block
-    template: call_to_action
-
-
-    ranks:
-      base: 2
-    top:
-      active: true
-      description: >-
-        <p>Donnez de la force à notre liste, soutenez nous financièrement !</p>
-    data:
-      layout: accent_background
-      text: >-
-        <p>Donnez de la force à notre liste, soutenez nous financièrement !</p>
-
-      buttons:
-        - 
-          title: >-
-            Faire un don
-          url: >-
-            #
-          target_blank: false
+      quantity: 3
 
 
   - kind: block
     template: posts
-
-
+    title: >-
+      Les dernières informations
+    slug: >-
+      les-dernieres-informations
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Les dernières informations
+        heading: 2
+        link: "/actualites/"
 
     data:
       mode: all
@@ -180,19 +181,19 @@ contents:
         summary: false
 
       posts:
-        - permalink: ""
+        - permalink: "/actualites/2026-04-06-rentree-scolaire-2026-2027-inscrivez-vos-enfants/"
           path: "/posts/2026/2026-04-06-rentree-scolaire-2026-2027-inscrivez-vos-enfants"
           slug: "rentree-scolaire-2026-2027-inscrivez-vos-enfants"
           file: "content/fr/posts/2026/2026-04-06-rentree-scolaire-2026-2027-inscrivez-vos-enfants.html"
           name: >-
             Rentrée scolaire 2026-2027 - Inscrivez vos enfants !
-        - permalink: ""
+        - permalink: "/actualites/2026-04-03-travaux-sur-la-place-de-leglise/"
           path: "/posts/2026/2026-04-03-travaux-sur-la-place-de-leglise"
           slug: "travaux-sur-la-place-de-leglise"
           file: "content/fr/posts/2026/2026-04-03-travaux-sur-la-place-de-leglise.html"
           name: >-
             Travaux sur la place de l'Eglise
-        - permalink: ""
+        - permalink: "/actualites/2026-03-16-elections-municipales-2026-resultats/"
           path: "/posts/2026/2026-03-16-elections-municipales-2026-resultats"
           slug: "elections-municipales-2026-resultats"
           file: "content/fr/posts/2026/2026-03-16-elections-municipales-2026-resultats.html"
@@ -204,13 +205,21 @@ contents:
 
   - kind: block
     template: agenda
-
-
+    title: >-
+      Les prochains événements
+    slug: >-
+      les-prochains-evenements
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Les prochains événements
+        heading: 2
+        link: "/agenda/"
 
     data:
       mode: all
@@ -229,7 +238,7 @@ contents:
       layout: grid
 
 
-      title_link: ""
+      title_link: "/agenda/"
       events:
         - permalink: "/agenda/2026/marche-des-producteurs-11-avril-2026/"
           path: "/events/2026/04/11-09-00-marche-des-producteurs-11-avril-2026"

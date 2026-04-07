@@ -21,7 +21,7 @@ contents:
         heading: 2
 
     data:
-      layout: no_background
+      layout: alt_background
       text: >-
         <p>Lundi, Mardi, Vendredi : 8h-12h30, 14h00-17h30<br>Mercredi : 14h00-17h00<br>Fermée le jeudi et les weekends</p><p>09 XX XX XX XX</p>
 

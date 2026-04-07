@@ -26,7 +26,8 @@ search:
     Belote d'Avril
   summary: >-
     <p>L'association "Les liens du jeu" organise son tournoi de belote de printemps !</p>
-
+  body: >-
+    <p>  <br>L'association "Les liens du jeu" organise son prochain tournoi de belote. Ce mois-ci, tentez de gagner avec votre partenaire un bon d'achat de 150€ à utiliser chez les commerçants de Saint-Éloire. Des bouteilles de vin et des paniers sont également à gagner.</p>  <p> Organisé par </p>  <p>Organisatrice de l'évènement</p>
 
 date: "2026-04-22T14:00:00+02:00"
 dates:
@@ -151,9 +152,65 @@ text: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 0
+  seconds: 13
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>L'association "Les liens du jeu" organise son prochain tournoi de belote.</p><p>Ce mois-ci, tentez de gagner avec votre partenaire un bon d'achat de 150€ à utiliser chez les commerçants de Saint-Éloire.</p><p>Des bouteilles de vin et des paniers sont également à gagner.</p>
+
+
+
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Organisé par
+    slug: >-
+      organise-par
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Organisé par
+        heading: 2
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: false
+        summary: true
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/les-liens-du-jeu/"
+          path: "/organizations/les-liens-du-jeu"
+          slug: "les-liens-du-jeu"
+          file: "content/fr/organizations/les-liens-du-jeu.html"
+          role: >-
+            Organisatrice de l'évènement
+      quantity: 1
+
+
 
 ---

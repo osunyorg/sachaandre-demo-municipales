@@ -7,4 +7,4 @@ params:
     active: true
   logo:
     header: '/assets/images/se_logo_b.png'
-    footer: 'assets/images/se_logo_b.png'
+    footer: '/assets/images/se_logo_b.png'

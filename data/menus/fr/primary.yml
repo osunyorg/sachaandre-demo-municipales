@@ -30,6 +30,25 @@ items:
   - "/notre-commune/le-conseil-municipal/"
   path: "/pages/notre-commune"
   file: content/fr/pages/notre-commune/_index.html
+- title: Au quotidien
+  slug: au-quotidien
+  target: "/au-quotidien/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Équipements municipaux
+    slug: equipements-municipaux
+    target: "/au-quotidien/equipements-municipaux/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/au-quotidien/equipements-municipaux"
+    file: content/fr/pages/au-quotidien/equipements-municipaux/_index.html
+  descendants_targets:
+  - "/au-quotidien/equipements-municipaux/"
+  path: "/pages/au-quotidien"
+  file: content/fr/pages/au-quotidien/_index.html
 - title: Vos démarches
   slug: vos-demarches
   target: "/vos-demarches/"
@@ -65,6 +84,15 @@ items:
   - https://www.service-public.gouv.fr/
   path: "/pages/vos-demarches"
   file: content/fr/pages/vos-demarches/_index.html
+- title: Agenda
+  slug: agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
 - title: Contact
   slug: contact
   target: "/contact/"

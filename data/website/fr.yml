@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 5
+  seconds: 7
   text: >-
     moins d'une minute
 contents:
@@ -27,6 +27,55 @@ contents:
 
 
 
+
+
+
+  - kind: block
+    template: links
+    title: >-
+      Liens utiles
+    slug: >-
+      liens-utiles
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Liens utiles
+        heading: 2
+
+    data:
+
+      layout: grid
+      options:
+        icons: false
+
+      links:
+        - 
+          title: >-
+            Intramuros
+
+          url: >-
+            #
+          external: true
+
+        - 
+          title: >-
+            Portail CdC
+
+          url: >-
+            #
+          external: true
+
+        - 
+          title: >-
+            Espace familles CdC
+
+          url: >-
+            #
+          external: true
 
 
 

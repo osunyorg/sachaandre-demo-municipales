@@ -15,6 +15,17 @@ fr:
             contact@saint-eloire.fr
           value: >-
             mailto:contact@saint-eloire.fr
+      social_networks:
+        facebook:
+          label: >-
+            #
+          value: >-
+            https://www.facebook.com/#
+        instagram:
+          label: >-
+            #
+          value: >-
+            https://instagram.com/#
 
   taxonomies:
     administrator: administrators

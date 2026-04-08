@@ -7,6 +7,15 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Découvrir Saint-Éloire
+    slug: decouvrir-saint-eloire
+    target: "/notre-commune/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/notre-commune"
+    file: content/fr/pages/notre-commune/_index.html
   - title: Le Conseil municipal
     slug: le-conseil-municipal
     target: "/notre-commune/le-conseil-municipal/"
@@ -26,6 +35,7 @@ items:
     path: "/pages/notre-commune/actes-administratifs"
     file: content/fr/pages/notre-commune/actes-administratifs/_index.html
   descendants_targets:
+  - "/notre-commune/"
   - "/notre-commune/actes-administratifs/"
   - "/notre-commune/le-conseil-municipal/"
   path: "/pages/notre-commune"
@@ -36,6 +46,15 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: École
+    slug: ecole
+    target: "/au-quotidien/ecole/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/au-quotidien/ecole"
+    file: content/fr/pages/au-quotidien/ecole/_index.html
   - title: Équipements municipaux
     slug: equipements-municipaux
     target: "/au-quotidien/equipements-municipaux/"
@@ -45,6 +64,15 @@ items:
     descendants_targets: []
     path: "/pages/au-quotidien/equipements-municipaux"
     file: content/fr/pages/au-quotidien/equipements-municipaux/_index.html
+  - title: Action Sociale
+    slug: action-sociale
+    target: "/au-quotidien/action-sociale/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/au-quotidien/action-sociale"
+    file: content/fr/pages/au-quotidien/action-sociale/_index.html
   - title: Annuaire des associations
     slug: annuaire-des-associations
     target: "/au-quotidien/annuaire-des-associations/"
@@ -54,9 +82,21 @@ items:
     descendants_targets: []
     path: "/pages/au-quotidien/annuaire-des-associations"
     file: content/fr/pages/au-quotidien/annuaire-des-associations/_index.html
+  - title: Vie économique
+    slug: vie-economique
+    target: "/au-quotidien/vie-economique/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/au-quotidien/vie-economique"
+    file: content/fr/pages/au-quotidien/vie-economique/_index.html
   descendants_targets:
+  - "/au-quotidien/action-sociale/"
   - "/au-quotidien/annuaire-des-associations/"
+  - "/au-quotidien/ecole/"
   - "/au-quotidien/equipements-municipaux/"
+  - "/au-quotidien/vie-economique/"
   path: "/pages/au-quotidien"
   file: content/fr/pages/au-quotidien/_index.html
 - title: Vos démarches

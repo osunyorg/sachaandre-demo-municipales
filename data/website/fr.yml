@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 2
+  seconds: 8
   text: >-
     moins d'une minute
 contents:
@@ -65,11 +65,69 @@ contents:
 
     data:
 
-
+      name: >-
+        Mairie de Saint-Éloire
 
       contact_details:
+        postal_address:
+          data:
+
+            address: >-
+              1 rue de la Mairie
+
+            zipcode: >-
+              99340
+            city: >-
+              Saint-Éloire
+            country:
+              name: >-
+                France
+              alpha2: >-
+                FR
+              alpha3: >-
+                FRA
+          text: >-
+            1 rue de la Mairie 99340 Saint-Éloire FRANCE
+          html: >-
+            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">1 rue de la Mairie</span> <span itemprop="postalCode">99340</span> <span itemprop="addressLocality">Saint-Éloire</span> <span itemprop="addressCountry">FRANCE</span></address>
+        phone_numbers:
+          list:
+            - label: >-
+                09 XX XX XX XX
+              value: >-
+                tel:09XXXXXXXX
+        emails:
+          list:
+            - label: >-
+                contact@saint-eloire.fr
+              value: >-
+                mailto:contact@saint-eloire.fr
+        websites:
+          website:
+            label: >-
+              demo-municipales.sachaandre.osuny.site/
+            value: >-
+              https://demo-municipales.sachaandre.osuny.site/
 
       timetable:
+        - 
+          title: >-
+            Lundi, Mardi, Mercredi
+          time_slot_morning:
+            from: "08:30"
+            to: "12:30"
+          time_slot_afternoon:
+            from: "14:00"
+            to: "17:00"
+        - 
+          title: >-
+            Vendredi
+          time_slot_morning:
+            from: ""
+            to: ""
+          time_slot_afternoon:
+            from: "09:00"
+            to: "18:00"
 
 
 

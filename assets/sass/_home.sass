@@ -2,7 +2,6 @@
 
 .block-class-acces-direct
     background: $color-background-alt
-    margin-top: 0
     margin-bottom: 0
     padding-top: $grid-gutter
     padding-bottom: $grid-gutter
@@ -10,3 +9,8 @@
     .block-links--grid li
         flex-direction: row
         gap: 1rem
+
+/// forçage du margin top 0 sur block acces direct en page d'accueil
+.page__home .document-content > .blocks
+    .block:first-child
+        margin-top: 0

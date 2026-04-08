@@ -114,6 +114,15 @@ items:
     descendants_targets: []
     path: "/pages/vos-demarches/urbanisme"
     file: content/fr/pages/vos-demarches/urbanisme/_index.html
+  - title: Démarches administratives
+    slug: demarches-administratives
+    target: "/vos-demarches/etat-civil/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vos-demarches/etat-civil"
+    file: content/fr/pages/vos-demarches/etat-civil/_index.html
   - title: Droits et démarches - particuliers
     slug: droits-et-demarches-particuliers
     target: https://www.service-public.gouv.fr/
@@ -129,6 +138,7 @@ items:
     children: []
     descendants_targets: []
   descendants_targets:
+  - "/vos-demarches/etat-civil/"
   - "/vos-demarches/urbanisme/"
   - https://entreprendre.service-public.gouv.fr/
   - https://www.service-public.gouv.fr/

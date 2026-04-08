@@ -60,6 +60,7 @@ contents:
     ranks:
       base: 2
       children: 2
+    html_class: "block-class-footer-info"
     top:
       active: false
 

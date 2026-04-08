@@ -64,6 +64,13 @@ items:
     descendants_targets: []
     path: "/pages/au-quotidien/equipements-municipaux"
     file: content/fr/pages/au-quotidien/equipements-municipaux/_index.html
+  - title: Marchés
+    slug: marches
+    target: https://demo-municipales.sachaandre.osuny.site/agenda/marches/
+    kind: url
+    new_tab: false
+    children: []
+    descendants_targets: []
   - title: Action Sociale
     slug: action-sociale
     target: "/au-quotidien/action-sociale/"
@@ -82,21 +89,12 @@ items:
     descendants_targets: []
     path: "/pages/au-quotidien/annuaire-des-associations"
     file: content/fr/pages/au-quotidien/annuaire-des-associations/_index.html
-  - title: Vie économique
-    slug: vie-economique
-    target: "/au-quotidien/vie-economique/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/au-quotidien/vie-economique"
-    file: content/fr/pages/au-quotidien/vie-economique/_index.html
   descendants_targets:
   - "/au-quotidien/action-sociale/"
   - "/au-quotidien/annuaire-des-associations/"
   - "/au-quotidien/ecole/"
   - "/au-quotidien/equipements-municipaux/"
-  - "/au-quotidien/vie-economique/"
+  - https://demo-municipales.sachaandre.osuny.site/agenda/marches/
   path: "/pages/au-quotidien"
   file: content/fr/pages/au-quotidien/_index.html
 - title: Vos démarches

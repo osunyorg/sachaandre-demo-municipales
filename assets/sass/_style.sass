@@ -5,6 +5,8 @@
     color: #ffffff
     min-height: 300px
 
+
+
 //header logo and text hero white
 html:not(.has-menu-opened)
     .page__home header:not(.is-sticky):not(:has(~ .alerts))
@@ -14,6 +16,12 @@ html:not(.has-menu-opened)
             color: #ffffff
         .logo img
             content: url("/assets/images/se_logo_w.png")
+
+    .page__home header#document-header 
+        .primary-menu 
+            .header-button
+                color: #ffffff
+
 
 header#document-header .logo img
     height: 72px

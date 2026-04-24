@@ -15,42 +15,42 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/les-liens-du-jeu/"
+from = "/les-liens-du-jeu/index.html"
 to = "/organisations/les-liens-du-jeu/"
 
 [[redirects]]
-from = "/vos-demarches/demarches-administratives/"
+from = "/vos-demarches/demarches-administratives/index.html"
 to = "/vos-demarches/etat-civil/"
 
 [[redirects]]
-from = "/notre-liste/"
+from = "/notre-liste/index.html"
 to = "/equipe/"
 
 [[redirects]]
-from = "/categories/associations-de-saint-eloire/"
+from = "/categories/associations-de-saint-eloire/index.html"
 to = "/organisations/categories/associations-de-saint-eloire/"
 
 [[redirects]]
-from = "/as-saint-eloire/"
+from = "/as-saint-eloire/index.html"
 to = "/organisations/as-saint-eloire/"
 
 [[redirects]]
-from = "/notre-liste/bernard-porturatu/"
+from = "/notre-liste/bernard-porturatu/index.html"
 to = "/equipe/bernard-porturatu/"
 
 [[redirects]]
-from = "/les-cousettes-eloriennes/"
+from = "/les-cousettes-eloriennes/index.html"
 to = "/organisations/les-cousettes-eloriennes/"
 
 [[redirects]]
-from = "/annuaire-des-associations/"
+from = "/annuaire-des-associations/index.html"
 to = "/au-quotidien/annuaire-des-associations/"
 
 [[redirects]]
-from = "/archives-expositions/"
+from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/notre-liste/categories/liste-municipale-saint-eloire-en-commun/"
+from = "/notre-liste/categories/liste-municipale-saint-eloire-en-commun/index.html"
 to = "/equipe/categories/liste-municipale-saint-eloire-en-commun/"
 

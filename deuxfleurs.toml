@@ -27,6 +27,10 @@ from = "/notre-liste/index.html"
 to = "/equipe/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/arret-municipalpdf/"
+
+[[redirects]]
 from = "/categories/associations-de-saint-eloire/index.html"
 to = "/organisations/categories/associations-de-saint-eloire/"
 
